@@ -62,7 +62,7 @@ namespace Music3103
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            musicBindingSource.DataSource = Musiclist;
         }
 
         private void button8_Click(object sender, EventArgs e)
